@@ -79,3 +79,6 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
+
+# Application-specific files
+local_keys.rb
