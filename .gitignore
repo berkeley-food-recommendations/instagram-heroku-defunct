@@ -59,7 +59,6 @@ doc/
 auto-save-list
 tramp
 .\#*
-.*
 !.gitignore
 *~
 
