@@ -4,10 +4,27 @@ gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
-
 gem 'json'
+
+group :development, :test do
+  gem 'sqlite3'
+  gem 'rspec-rails'
+end
+group :test do
+  gem 'capybara'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+  gem 'simplecov'
+  gem 'spork-rails'
+  gem 'watchr'
+end
+group :production do
+  gem 'pg'
+end
+
+# https://devcenter.heroku.com/articles/rails3#webserver
+# installed in all groups to allow for local testing before deployment
+gem 'thin'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -37,3 +54,12 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+gem 'haml'
+gem 'haml-rails'
+
+gem 'factory_girl_rails'
+
+gem 'chronic'
+
+gem 'psych'

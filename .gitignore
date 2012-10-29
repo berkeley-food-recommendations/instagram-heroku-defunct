@@ -13,3 +13,69 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Rails crud (not CRUD)
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# Ruby files
+*.gem
+InstalledFiles
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+.DS_Store
+
+# Thumbnails
+._*
+
+# Random files we do-not-want-cat
+.Spotlight-V100
+.Trashes
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+.*
+!.gitignore
+*~
+
+# KDE
+.directory
+.*.sw[a-z]
+*.un~
+Session.vim
+*.tmproj
+*.tmproject
+tmtags
+
+# SublimeText project files
+/*.sublime-project
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
