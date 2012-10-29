@@ -63,3 +63,5 @@ gem 'factory_girl_rails'
 gem 'chronic'
 
 gem 'psych'
+
+gem 'instagram'
